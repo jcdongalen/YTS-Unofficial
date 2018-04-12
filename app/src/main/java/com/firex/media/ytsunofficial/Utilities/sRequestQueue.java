@@ -22,7 +22,7 @@ public class sRequestQueue {
     }
 
     private sRequestQueue(Context context) {
-        this.mContext = context;
+        mContext = context;
         this.mRequestQueue = getRequestQueue();
 
         mImageLoader = new ImageLoader(mRequestQueue,
